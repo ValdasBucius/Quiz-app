@@ -257,3 +257,12 @@ progress {
   font-size: inherit;
   padding: 0.8rem;
 }
+
+.test-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.progress-bar {
+  display: block;
+  width: 100%;
+}
