@@ -1,10 +1,7 @@
-function NextButton({ dispatch }) {
+function NextButton({ dispatch, children, type }) {
   return (
-    <button
-      className="btn btn-ui"
-      onClick={() => dispatch({ type: "nextQuestion" })}
-    >
-      Next
+    <button className="btn btn-ui" onClick={() => dispatch({ type: type })}>
+      {children}
     </button>
   );
 }
